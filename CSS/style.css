@@ -1,0 +1,23 @@
+/* Add code for container class below */
+.container {
+    display: grid;
+    max-width: 900px;
+    min-height: 50vh;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto 1fr auto auto;
+    grid-template-areas: "header" "left" "main" "right" "footer";
+    /* Add rules here */
+}
+
+*{
+    background-color: burlywood;
+
+}
+
+
+.img-header{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: aqua;
+}
